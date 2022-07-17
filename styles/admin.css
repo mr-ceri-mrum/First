@@ -1,0 +1,86 @@
+.admin_title{
+	padding:15px 30px;
+	font-size:21px;
+}
+
+.admin_title > span{
+	text-transform:capitalize;
+}
+
+.main_navig_wrap{
+	padding:0px 15px;
+	overflow:hidden;
+}
+
+.mnw_item_box{
+	width:calc(100% / 4);
+	height:160px;
+	float:left;
+}
+
+.mnwib_cont{
+	border-radius:4px;
+	height:inherit;
+	margin:0px 15px;
+	background-color:#f9f7f7;
+}
+
+.mnwib_cont:hover{
+	background-color:#e7e7e7;
+}
+
+.mnwib_cont > a{
+	color:black;
+}
+
+.mnwibc_image{
+	height:75%;
+	text-align:center;
+}
+
+.mnwibc_image > span{
+	font-size:64px;
+	line-height:120px;
+}
+
+.mnwibc_text{
+	height:25%;
+	text-align:center;
+}
+
+.mnwibc_text > span{
+	line-height:40px;
+}
+
+
+.newsform{
+	outline:1px solid red;
+	padding:30px;
+	overflow:hidden;
+}
+
+.newsform p{
+	font-size:18px;
+}
+
+.newsform p > span{
+	font-weight:bold;
+}
+
+.newsform input{
+	height:40px;
+	padding:7px;
+	width:80%;
+}
+
+.newsform textarea{
+	width:100%;
+	min-height:280px;
+	padding:7px;
+}
+
+.newsform input[type=submit]{
+	width:220px;
+	margin-top:25px;
+	float:right;
+}
